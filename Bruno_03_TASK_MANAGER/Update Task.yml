@@ -5,7 +5,13 @@ info:
 
 http:
   method: PATCH
-  url: "{{main}}/123"
+  url: "{{main}}/69ac0c7b4668a8148621bfc0"
+  body:
+    type: json
+    data: |-
+      {
+        "name": "Britain will fall"
+      }
   auth: inherit
 
 settings:
