@@ -4,6 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
+    "kill": "taskkill /f /im node.exe /fi \"windowtitle eq npm*\" || exit 0",
     "start": "nodemon app.js"
   },
   "keywords": [],
